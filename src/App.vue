@@ -5,17 +5,23 @@
   <div class="content-wrapper">
     <div class="container">
       <div class="header">
-        <h3>Заголовок жесть</h3>
+<<<<<<< Updated upstream
+        <h3>Инди работяги</h3>
+        <div>Юра в тайне гей</div>
+=======
+        <h3>Заголовок</h3>
         <div>Текст но поменьше</div>
+>>>>>>> Stashed changes
       </div>
 
       <div class="container-blocks">
         <div class="circle-block"></div>
 
-        <img class="girl-pic" src="/kim.jpg"/>
+        <img class="girl-pic" src="https://www.indieworkers.ru/workers.svg"/>
       </div>
-      
-
+        
+      <div class="footer">
+      </div>
     </div>
   </div>
 </template>
@@ -71,5 +77,15 @@
     width: 190px;
     height: 190px;
     border-radius: 40px;
+  }
+
+  .footer{
+    background-color: #ecf0f3;
+    display: flex;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 36px 24px;
+
+    box-shadow: inset 10px 10px 10px #d1d9e6, inset -5px -5px 10px #fff;
   }
 </style>
